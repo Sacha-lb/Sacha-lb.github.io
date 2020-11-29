@@ -21,17 +21,29 @@
     cursor: pointer;
 }
 
+.flexRow--header ul li:last-child{
+    margin-right: 0;
+}
+
 .logo{
     display: $flex;
     flex-direction: $row;
     align-items: $centerFlex;
-}
 
-.logo span{
+    span{
     font-family: $dosis;
     font-weight: $fwBold;
     font-size: 40px;
     color: $grey;
     padding-top: $pmLarge;
     padding-left: $pmMedium;
+    }
 }
+
+
+
+@media screen and (max-width: 400px) {
+    .flexRow--header ul li{
+        margin-right: 10px;
+    }
+  }

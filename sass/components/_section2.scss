@@ -49,3 +49,9 @@
         width: $halfAllignement;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .section2 img{
+        padding-top: 40px;
+    }
+  }
