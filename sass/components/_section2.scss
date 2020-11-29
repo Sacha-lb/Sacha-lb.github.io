@@ -1,0 +1,31 @@
+.section2{
+    @extend .articles;
+    @extend .flexRow--header;
+}
+
+.rightSection2{
+    @extend .leftSection1;
+    margin-left: 50px;
+    background-image: url(../../img/background-we-are.png);
+    p:after{
+        content: "It's 2019: time to sink or swim.";
+        line-height: 4;
+    }
+    h2{
+        font-family: $poppins;
+        font-weight: $fwSemiBold;
+        font-size: 50px;
+        color: $grey;
+    }
+
+    h3{
+        font-size: 20px;
+        font-family: $poppins;
+        color: $purple;
+        font-weight: $fwMedium;
+    }
+}
+
+.leftSection2{
+    margin-left: $pmMedium;
+}

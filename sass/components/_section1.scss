@@ -1,0 +1,42 @@
+.leftSection1{
+    padding-bottom: 300px;
+}
+
+.leftSection1 h1{
+    color: $grey;
+    font-family: $poppins;
+    font-size: 30px;
+    font-weight: $fwSemiBold;
+    line-height: 1.2;
+}
+
+.leftSection1 h1:after{
+    content: "FOR BUSINESS!";
+    display: block;
+    font-family: $poppins;
+    font-size: 50px;
+    font-weight: $fwBold;
+}
+
+.leftSection1 p{
+    color: $greyLight;
+    font-family: $poppins;
+    font-weight: $fwLight;
+    font-size: 16px;
+    margin-top: $pmLight;
+    margin-bottom: $pmLarge;
+}
+
+.leftSection1 p:after{
+    content: "WE ARE LOREM MEDIA";
+    display: block;
+}
+
+.mouse{
+    position: $absolute;
+    bottom: $minAllignement;
+    left: $halfAllignement;
+    box-shadow: $shadow;
+    padding: 1%;
+    border-radius: 200px;
+}

@@ -1,0 +1,62 @@
+.section3{
+    background-image: url(../../img/background-service.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section3 h2{
+    font-family: $poppins;
+    font-weight: $fwSemiBold;
+    font-size: 50px;
+    color: $grey;
+}
+
+.section3 h3{
+    font-size: 25px;
+    font-family: $poppins;
+    color: $purple;
+    font-weight: $fwMedium;
+}
+
+.lineElements{
+    display: $flex;
+    flex-direction: $row;
+    justify-content: $spaceB;
+    margin-top: $pmMedium;
+}
+
+.element{
+    width: 30%;
+    display: $block;
+    flex-direction: $column;
+    background-color: $white;
+    border-radius: $radiusLarge;
+    box-shadow: $shadow2;
+}
+
+.element img{
+    display: $block;
+    margin: $pmMedium auto;
+    
+}
+
+.element h4{
+    font-family: $poppins;
+    font-size: 18px;
+    font-family: $fwSemiBold;
+    color: $grey;
+    margin: $pmMedium;
+}
+
+.element p{
+    font-family: $lato;
+    font-size: 15px;
+    margin: $pmMedium;
+}
+
+.element a{
+    display: $flex;
+    float: $right;
+    margin: $pmMedium $pmLarge $pmMedium 0;
+}

@@ -1,0 +1,77 @@
+.section4{
+    height: 100vh;
+    background-color: $purple2;
+    margin-top: $pmXl;
+}
+
+.section4 h2{
+    font-family: $poppins;
+    font-weight: $fwSemiBold;
+    font-size: 50px;
+    color: $grey;
+    display: $flex;
+    justify-content: center;
+    padding-top: $pmLight;
+}
+
+.section4 h3{
+    font-size: 20px;
+    padding-top: $pmLarge;
+    font-family: $poppins;
+    color: $purple;
+    font-weight: $fwMedium;
+    display: $flex;
+    justify-content: center;
+}
+
+.packs{
+    display: $flex;
+    flex-direction: $row;
+    justify-content: $spaceB;
+    margin-top: $pmLarge;
+}
+
+.pack{
+    display: $flex;
+    justify-content: $centerFlex;
+    align-items: $centerFlex;
+    flex-direction: $column;
+    width: 30%;
+    background-color: $white;
+    border-radius: $radiusSmall;
+
+    p{
+        text-align: $centerFlex;
+        margin: $pmLarge 0;
+    }
+
+    h4{
+        font-family: $lato;
+        font-size: 28px;
+        color: $grey;
+        margin: $pmLarge 0;
+    }
+
+    p{
+        color: $grey;
+        font-family: $poppins;
+        font-size: 16px;
+        margin: $pmLarge 0;
+    }
+
+    a{
+        margin: $pmLarge 0;
+    }
+
+    span{
+        font-family: $poppins;
+        font-size: 30px;
+        font-weight: $fwSemiBold;
+        color: $border;
+    }
+
+    &--highlight{
+        @extend .pack;
+        box-shadow: $shadow2;
+    }
+}

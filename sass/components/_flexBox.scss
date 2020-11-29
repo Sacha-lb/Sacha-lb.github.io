@@ -1,0 +1,19 @@
+.flexRow{
+    display: $flex;
+    flex-direction: $row;
+    justify-content: $centerFlex;
+    align-items: $centerFlex;
+
+    &--header{
+        @extend .flexRow;
+        margin-top: $pmLight;
+        justify-content: $spaceB;
+    }
+}
+
+.flexColumn{
+    display: $flex;
+    flex-direction: $column;
+    justify-content: $centerFlex;
+    align-items: $centerFlex;
+}

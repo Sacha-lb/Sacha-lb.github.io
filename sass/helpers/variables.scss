@@ -1,16 +1,23 @@
 //Colors
 $purple: #7E76F9;
+$purple2: #d8d5ff;
+$white: #ffffff;
 $grey: #42495b;
-$gradient: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+$black: black;
+$backInput: #f6f7fb;
+$greyLight: #7a839e;
+$gradient: linear-gradient(to left, #6156f9 , #1a129f);
 $border: #1000ff;
 
 //Padding and Margin
 $pmLight: 2%;
 $pmMedium: 5%;
 $pmLarge: 10%;
+$pmXl: 15%;
 
 //Shadow
-$shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+$shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.25);
+$shadow2: 0 10px 20px 0 rgba(126, 118, 249, 0.35);
 
 //Border-radius
 $radiusSmall: 25px;
@@ -19,6 +26,8 @@ $radiusLarge: 35px;
 //Fonts
 $poppins: 'Poppins', sans-serif;
 $lobster: 'Lobster', cursive;
+$dosis: 'Dosis', sans-serif;
+$lato: 'Lato', sans-serif;;
 $fwLight: 300;
 $fwRegular: 400;
 $fwMedium: 500;
@@ -31,13 +40,35 @@ $contain: 80%;
 //Center
 $centerBlock: 0 auto;
 $centerFlex: center;
+$left: left;
+$right: right;
 
 //Titles
 
 
 //Flex
+$flex: flex;
 $column: column;
 $row: row;
+$spaceA: space-around;
+$spaceB: space-between;
 
-//List
+//List-Lien
 $noDecoration: none;
+
+//Position
+$absolute: absolute;
+$relative: relative;
+$fixed: fixed;
+
+//Alignement
+$minAllignement: 0;
+$halfAllignement: 50%;
+$maxAllignement: 100%;
+
+//Display
+$block: block;
+
+//Border
+
+$ctaBorder: solid 1px #1000ff;

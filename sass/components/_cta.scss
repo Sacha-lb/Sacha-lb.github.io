@@ -1,0 +1,15 @@
+.ctaFull{
+    background: $gradient;
+    padding: 13px 40px;
+    border-radius: $radiusSmall;
+    color: $white;
+    text-decoration: $noDecoration;
+    font-family: $poppins;
+}
+
+.ctaEmpty{
+    @extend .ctaFull;
+    color: $grey;
+    background: $white;
+    border: $ctaBorder;
+}

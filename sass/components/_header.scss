@@ -1,0 +1,37 @@
+.flexRow--header{
+    display: $flex;
+    flex-direction: $row;;
+    justify-content: $spaceB;
+    align-items: $centerFlex;
+    margin-top: $pmLight;
+}
+
+.flexRow--header ul{
+    list-style: $noDecoration;
+    display: $flex;
+    flex-direction: $row;
+    font-family: $poppins;
+    font-weight: $fwMedium;
+    color: $white;
+    font-size: 16px;
+}
+
+.flexRow--header ul li{
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.logo{
+    display: $flex;
+    flex-direction: $row;
+    align-items: $centerFlex;
+}
+
+.logo span{
+    font-family: $dosis;
+    font-weight: $fwBold;
+    font-size: 40px;
+    color: $grey;
+    padding-top: $pmLarge;
+    padding-left: $pmMedium;
+}
