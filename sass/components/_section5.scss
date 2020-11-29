@@ -88,6 +88,25 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .section5{
+        text-align: $centerFlex;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .input{
+        input{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            width: 200px;
+            padding-left: 0;
+            margin-right: 0;
+        }
+    }
+
+}
 
 
 

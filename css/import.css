@@ -127,7 +127,24 @@
   height: 30px;
   margin-left: 35px;
   margin-top: 20px;
-  background-color: blue; }
+  background-color: #1000ff; }
+
+@media screen and (max-width: 950px) {
+  .flexRow--header, .section2 {
+    flex-direction: column;
+    text-align: center; }
+    .flexRow--header .rightSection1 img, .section2 .rightSection1 img {
+      width: 50%; }
+  .leftSection1, .rightSection2 {
+    text-align: center;
+    padding-bottom: 30px; }
+  h1 {
+    text-align: center; }
+  .articles {
+    background-image: none; }
+  .menu ul {
+    color: #42495b;
+    margin-top: 5%; } }
 
 .section2 {
   height: 100vh;
@@ -152,6 +169,19 @@
 
 .leftSection2 {
   margin-left: 5%; }
+
+@media screen and (max-width: 1100px) {
+  .section2 {
+    flex-direction: column;
+    text-align: center; }
+  .leftSection2 {
+    margin-left: 0; }
+  .rightSection2 {
+    margin-left: 0; } }
+
+@media screen and (max-width: 750px) {
+  .section2 img {
+    width: 50%; } }
 
 .section3 {
   background-image: url(../../img/background-service.png);
@@ -205,6 +235,18 @@
   display: flex;
   float: right;
   margin: 5% 10% 5% 0; }
+
+@media screen and (max-width: 1100px) {
+  .section3 {
+    padding-top: 200px;
+    height: auto;
+    text-align: center; }
+  .lineElements {
+    flex-direction: column; }
+  .element {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px; } }
 
 .section4 {
   height: 100vh;
@@ -265,6 +307,17 @@
     color: #1000ff; }
   .pack--highlight {
     box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.35); }
+
+@media screen and (max-width: 1100px) {
+  .section4 {
+    height: auto;
+    justify-content: center; }
+  .packs {
+    align-items: center;
+    flex-direction: column; }
+    .packs div {
+      width: 70%;
+      margin: 20px 0; } }
 
 .section5 {
   background-image: url(../../img/footer.png);
@@ -328,3 +381,16 @@
     font-weight: 500; }
   .section5 .firstFooter {
     text-align: center; }
+
+@media screen and (max-width: 1000px) {
+  .section5 {
+    text-align: center; } }
+
+@media screen and (max-width: 800px) {
+  .input input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 200px;
+    padding-left: 0;
+    margin-right: 0; } }

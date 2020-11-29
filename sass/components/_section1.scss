@@ -61,5 +61,30 @@
         height: 30px;
         margin-left: 35px;
         margin-top: 20px;
-        background-color: blue;
+        background-color: $border;
+}
+
+@media screen and (max-width: 950px) {
+    .flexRow--header{
+        flex-direction: $column;
+        text-align: $centerFlex;
+        .rightSection1 img{
+            width: $halfAllignement;
+        }
     }
+    .leftSection1{
+        text-align: $centerFlex;
+        padding-bottom: 30px;
+    }
+    h1{
+        text-align: $centerFlex;
+    }
+    .articles{
+        background-image: $noDecoration;
+    }
+    .menu ul{
+        color: $grey;
+        margin-top: $pmMedium;
+    }
+    
+  }

@@ -10,7 +10,7 @@
     font-size: 50px;
     color: $grey;
     display: $flex;
-    justify-content: center;
+    justify-content: $centerFlex;
     padding-top: $pmLight;
 }
 
@@ -21,7 +21,7 @@
     color: $purple;
     font-weight: $fwMedium;
     display: $flex;
-    justify-content: center;
+    justify-content: $centerFlex;
 }
 
 .packs{
@@ -73,5 +73,22 @@
     &--highlight{
         @extend .pack;
         box-shadow: $shadow2;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .section4{
+        height: auto;
+        justify-content: $centerFlex;
+    }
+    .packs{
+        align-items: $centerFlex;
+        flex-direction: $column;
+        
+
+        div{
+            width: 70%;
+            margin: 20px 0;
+        }
     }
 }
