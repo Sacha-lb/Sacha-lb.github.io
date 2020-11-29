@@ -1,5 +1,6 @@
 .section2{
-    @extend .articles;
+    height: 100vh;
+    width: 100%;
     @extend .flexRow--header;
 }
 

@@ -44,6 +44,10 @@
         justify-content: $spaceB;
         color: $white;
         
+        img{
+          padding: $pmMedium;
+          cursor: pointer;
+        }
 
         ul{
            list-style: $noDecoration; 
@@ -58,7 +62,11 @@
             }
             li{
                 font-size: 16px;
-                padding: $pmMedium;
+                padding: $pmLight;
+
+                .geo{
+                    margin-bottom: 30px;
+                }
             }
         }
     }
@@ -67,6 +75,7 @@
         font-family: $dosis;
         font-size: 50px;
         font-weight: $fwMedium;
+        padding-left: 55px;
     }
 
     .touch{

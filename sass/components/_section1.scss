@@ -40,3 +40,26 @@
     padding: 1%;
     border-radius: 200px;
 }
+
+.verticalSocial{
+    display: $flex;
+    flex-direction: $column;
+    position: absolute;
+    left: 20px;
+    top: 300px;
+
+    img{
+        padding: 30px;
+    }
+    
+    
+}
+
+.verticalSocial::after{
+        content: "";
+        width: 3px;
+        height: 30px;
+        margin-left: 35px;
+        margin-top: 20px;
+        background-color: blue;
+    }
